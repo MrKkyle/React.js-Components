@@ -1,0 +1,50 @@
+/* container styles */
+.Text-container
+{
+    width: 35%;
+    height: 70%;
+    display: none;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    transform: translate(-5%, -5%);
+    background-color: rgba(0,0,0,0.4);
+    padding: 25px;
+    border-radius: 5px;
+}
+.Text-container:hover 
+{
+    background-color: rgba(0,0,0,0.7);
+}
+
+/* font styles */
+.Text-container .text-title
+{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    color: whitesmoke;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 5px;
+    animation: FadeIn ease-in-out 3s ;
+}
+.Text-container .text-body
+{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    text-decoration: none;
+    padding: 10px;
+    color: whitesmoke;
+    overflow: hidden;
+    width: 100%;
+}
+@keyframes FadeIn
+{
+    0%{opacity: 0;}
+    50%{opacity: 0.5;}
+    100%{opacity: 1;}
+}

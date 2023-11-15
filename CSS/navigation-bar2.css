@@ -1,0 +1,70 @@
+#mySidenav a
+{
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 17px;
+    width: 120px;
+    height: 50px;
+    text-decoration: none;
+    color: rgb(231, 231, 231);
+    border-radius: 0 5px 5px 0;
+    font-size: 8px;
+    text-align: center;
+    display: flex;
+    z-index: 1;
+}
+#mySidenav a:hover 
+{
+    left: 0;
+    font-size: 14px;
+    cursor: pointer;
+}
+#about 
+{
+    top: 340px;
+    background-color: #04AA6D;
+}
+#about:hover 
+{
+    background-color: #0d6343;
+}
+#blog 
+{
+    top: 400px;
+    background-color: #2196F3;
+}
+#blog:hover 
+{
+    background-color: #186cb1;
+}
+#projects 
+{
+    top: 460px;
+    background-color: #f44336;
+}
+#projects:hover 
+{
+    background-color: #ac291f;
+}
+#contact 
+{
+    top: 520px;
+    background-color: #555;
+}
+#contact:hover 
+{
+    background-color: #292828;
+}
+ul
+{
+    list-style-type: none;
+}
+#mySidenav a img 
+{
+    vertical-align: middle;
+    position: relative;
+    left: 5px;
+    width: auto;
+    height: auto;
+}

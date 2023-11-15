@@ -1,0 +1,158 @@
+body
+{
+	font-family: Arial;
+	margin: 0;
+}
+*
+{
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.background-image
+{
+
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #cccccc;
+	position: absolute;
+	margin: 0;
+}
+img
+{
+	vertical-align: middle;
+}
+.text
+{
+	font-size: 12px;
+	color: white;
+	padding: 4px 6px;
+	width: 100%;
+	text-align: center;
+	bottom: 8px;
+	font-family: Lucida Sans;
+	background-color: #00000099;
+	border-radius: 2px;
+}
+
+.button
+{
+	text-align: center;
+	text-decoration: none;
+	font-size: 12px;
+	cursor: pointer;
+	width: 90px;
+	height: 40px;
+	position: relative;
+	margin: 10px;
+	color: black;
+    background-color: white;
+	border: 1px solid #000000;
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+.button:hover
+{
+	color: white;
+	border: 1px solid white;
+	background-color: black;
+}
+.error
+{
+	color: #FF0000;
+}
+
+/* width */
+::-webkit-scrollbar 
+{
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track 
+{
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb 
+{
+    background: #5c5c5e;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover 
+{
+    background: rgb(53, 51, 51);
+}
+
+.logout-confirm
+{
+    position: absolute;
+    display: none;
+    right: 100px;
+    top: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    background: linear-gradient(to bottom, rgb(32 32 32), rgb(17 17 25 / 26%));
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: auto;
+    height: auto;
+    z-index: 2;
+}
+.yes-btn
+{
+    padding: 0px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 12px;
+	cursor: pointer;
+    width: 90px;
+    height: 30px;
+	position: relative;
+	background-size: cover;
+	color: black;
+	border-radius: 4px;
+    float: left;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition-duration: 0.4s;
+}
+.yes-btn:hover
+{
+	color: rgb(0, 0, 0);
+	border: 1px solid aliceblue;
+	background-position: center;
+    background-color: rgb(10, 148, 17);
+}
+.no-btn
+{
+    padding: 0px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 12px;
+	cursor: pointer;
+    width: 90px;
+    height: 30px;
+	position: relative;
+	background-size: cover;
+	color: black;
+	border-radius: 4px;
+    float: left;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition-duration: 0.4s;
+}
+.no-btn:hover
+{
+	color: rgb(0, 0, 0);
+	border: 1px solid aliceblue;
+	background-position: center;
+    background-color: rgb(167, 14, 14);
+}
+

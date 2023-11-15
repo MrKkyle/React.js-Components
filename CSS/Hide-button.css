@@ -1,0 +1,15 @@
+.button
+{
+    padding: 5px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-image: url(../Images/hide.png);
+    background-size: cover;
+    background-position: center;
+
+}
+.button:hover 
+{
+    cursor: pointer;
+}

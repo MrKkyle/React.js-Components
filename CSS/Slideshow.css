@@ -1,0 +1,174 @@
+.mySlides
+{
+	display: none;
+	margin: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.slide 
+{
+    display: block;
+    position: relative;
+    float: right;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.character-pic 
+{
+	width: 39%;
+    height: 65%;
+    position: absolute;
+    left: 76%;
+    top: 37%;
+    transform: translate(-50%, -50%);
+    background-color: beige;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-position: center;
+    background-size: cover;
+
+}
+.character-info
+{
+	width: 39%;
+    height: 12%;
+    position: relative;
+    left: 76%;
+    top: 58%;
+    transform: translate(-50%, -50%);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: blanchedalmond;
+    overflow: auto;
+}
+.weapon
+{
+    width: 30%;
+    height: 59%;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: beige;
+    background-position: center;
+    background-size: cover;
+}
+.weapon-info
+{
+    width: 30%;
+    height: 12%;
+    position: relative;
+    left: 20%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: blanchedalmond;
+    overflow: auto;
+}
+
+/* Slideshow container */
+.slideshow-container
+{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	margin: 0px;
+	overflow: hidden;
+}
+
+.text-slideshow-container
+{
+	font-size: 18px;
+	color: white;
+	position: absolute;
+	padding: 8px 12px;
+	width: 100%;
+	text-align: center;
+	bottom: 15px;
+	margin: 0;
+}
+.slideshow-container .text 
+{
+	border-radius: 2px;
+	background-color: transparent;
+	color: black;
+	font-size: 14px;
+	padding: 20px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	animation: fadeText ease-in-out 1s ;
+	opacity: 1;
+	position: relative;
+	top: 0%;
+}
+.active
+{
+	background-color: #717171;
+}
+
+/* Fading animation */ 
+.fade
+{
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+.fadeText 
+{
+	animation-name: fadeText;
+	animation-duration: 1.5s;
+}
+
+@keyframes fade
+{
+	from {opacity : 0.4}
+	to {opacity: 1}
+}
+@keyframes fadeText 
+{
+	from{top: 30%; opacity: 0;}
+	to {top: 0%; opacity: 1;}
+}
+/* Next & previous buttons */
+.prev, .next 
+{
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next
+{
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover
+{
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.Slideshow .img
+{
+	vertical-align: middle;
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+}

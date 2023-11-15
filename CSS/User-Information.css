@@ -1,0 +1,156 @@
+.userInformation
+{
+    padding: 20px;
+    overflow: hidden;
+    display: none;
+}
+.userInformation .modal1
+{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0.9);
+	animation: FadeIn ease-in 1s;
+}
+.userInformation .main 
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 300px;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.2);
+    transition-duration: 0.4s;
+}
+.userInformation .main:hover
+{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.userInformation .text-heading
+{
+	font-size: 16px;
+	color: white;
+	padding: 4px 6px;
+	width: 100%;
+	text-align: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #00000099;
+}
+.userInformation .text-in
+{
+	font-size: 14px;
+	color: white;
+	padding: 4px 6px;
+	width: 100%;
+	text-align: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #00000099;
+}
+
+.userInformation .close
+{
+	position: absolute;
+	right: 15px;
+	top: 0;
+	color: #f1eded;
+	font-size: 50px;
+	font-weight: bold;
+    z-index: 2;
+}
+.userInformation .close:hover,
+.userInformation .close:focus
+{
+	color: red;
+	cursor: pointer;
+}
+
+/* User Card */
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Quattrocento);
+.snip1376 
+{
+    font-family: 'Quattrocento', Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 230px;
+    max-width: 600px;
+    width: 100%;
+    color: #141414;
+    text-align: left;
+    line-height: 1.4em;
+    font-size: 16px;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%, -50%);
+}
+.snip1376 * 
+{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.snip1376 img 
+{
+    width: 100%;
+}
+.snip1376 figcaption 
+{
+    width: 100%;
+    background: linear-gradient(0deg, rgb(166 226 255) 1%, rgb(224 181 225) 100%);
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+}
+.snip1376 figcaption:before 
+{
+    position: absolute;
+    content: '';
+    z-index: 2;
+    bottom: 100%;
+    left: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.snip1376 input[type = password]
+{
+    text-align: center;
+    border-bottom: transparent;
+    color: black;
+    padding: 0px;
+    font-family: 'Quattrocento', Arial, sans-serif;
+    width: auto;
+    margin: 15px 0;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: transparent;
+    border-radius: 0px;
+    font-size: 15px;
+}
+.snip1376 input[type = text]
+{
+    text-align: center;
+    border-bottom: transparent;
+    color: black;
+    padding: 0px;
+    font-family: 'Quattrocento', Arial, sans-serif;
+    width: auto;
+    margin: 15px 0;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: transparent;
+    border-radius: 0px;
+    font-size: 15px;
+}

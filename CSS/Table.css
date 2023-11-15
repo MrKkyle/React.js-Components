@@ -1,0 +1,36 @@
+/* Styles for the tables created */
+table 
+{
+    font-family: system-ui;
+    border-collapse: collapse;
+    width: 90%;
+    font-size: 12px;
+    border: 2px solid black;
+    background-color:whitesmoke;
+    position: relative;
+    left: 5%;
+}
+tr 
+{
+    font-size: 12px;
+    border: 2px solid whitesmoke;
+    transition: 0.5s;
+    
+}
+td, th
+{
+    
+    text-align: left;
+    padding: 8px;
+    font-weight: normal !important;
+    color: black;
+}
+
+tr:nth-child(odd)
+{
+    background-color:rgba(214, 213, 213, 0.8);  
+}
+tr:hover 
+{
+    border-left: 2px solid black;
+}

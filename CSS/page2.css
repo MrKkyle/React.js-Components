@@ -1,0 +1,194 @@
+.main-container
+{
+    position: absolute;
+    display: block;
+    height: 100%;
+    left: 25%;
+    width: 75%;
+    background-color:rgba(0, 0, 0, 0.5);
+    overflow: auto;
+    transition-duration: 0.4s;
+}
+.main-container:hover
+{
+    background-color: rgba(71, 73, 75, 0.6);
+}
+.side-container
+{
+    position: absolute;
+    display: block;
+    left: 0;
+    height: 100%;
+    width: 25%;
+    background-color:rgba(0, 0, 0, 0.5);
+    overflow: auto;
+    transition-duration: 0.4s;
+}
+.side-container:hover 
+{
+    background-color: rgba(71, 73, 75, 0.6);
+}
+.settings
+{
+    position: absolute;
+    display: block;
+    left: 0;
+    text-align: center;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+.app-settings, .shopify-settings
+{
+    overflow: auto;
+}
+.title 
+{
+    position: relative;
+    text-align: left;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    border-bottom: 1px solid aliceblue; 
+}
+.setting 
+{
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: block;
+    width: 70%;
+    height: 160px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color:rgb(240, 248, 255, 0.6);
+    border-radius: 40px;
+    transition-duration: 0.4s;
+    padding: 15px;
+}
+.setting:hover 
+{
+    box-shadow: 5px 10px rgb(0, 5, 5, 0.1);
+    background-color:rgb(240, 248, 255, 0.8);
+}
+.setting-title
+{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    border-bottom: 1px solid black;
+}
+.setting-details 
+{
+    position: relative;
+    text-align: left;
+    width: 80%;
+    height: auto;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+.description
+{
+    word-wrap: break-word;
+    overflow: auto;
+}
+.value 
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.button-on-off 
+{
+    position: absolute;
+    width: 70px;
+    height: 30px;
+    padding: 8px;
+    right: 15px;
+    top: 55%;
+    transition-duration: 0.4s;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    background-color: aliceblue;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    transform: translate(0%, -45%);
+}
+.button-on-off:hover
+{
+    background-color: rgba(11, 121, 7, 0.5);
+}
+.settings-2
+{
+    overflow: auto;
+    padding: 30px;
+    text-align: center;
+}
+.application
+{
+    position: relative;
+    display: block;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 16px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    user-select: none;
+}
+.shopify 
+{
+    position: relative;
+    display: block;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 16px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    user-select: none;
+}
+.a
+{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 47px;
+    display: block;
+    background-size: cover;
+    background-image: url(../media/icons8-settings-50.png);
+}
+.b 
+{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 60px;
+    display: block;
+    background-size: cover;
+    background-image: url(../media/icons8-shopify-50.png);
+}
+.mini-setting 
+{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 13px;
+    background-color: white;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 50%;
+    height: auto;
+    cursor: pointer;
+}
