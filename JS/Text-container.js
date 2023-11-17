@@ -1,6 +1,4 @@
 import '../Css/Text-container.css'
-
-
 function Text_container(props)
 {
     return (
