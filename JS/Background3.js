@@ -1,4 +1,4 @@
-import '../Css/Background.css';
+import '../css/Background.css';
 import {useState} from "react";
 import {useEffect} from 'react';
 import $ from "jquery";

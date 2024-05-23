@@ -1,4 +1,4 @@
-import '../Css/splashScreenGH.css';
+import '../css/splashScreenGH.css';
 import {useEffect} from 'react';
 import $ from 'jquery';
 

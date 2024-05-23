@@ -1,5 +1,5 @@
 import {useEffect} from 'react';
-import '../Css/User-Information.css';
+import '../css/User-Information.css';
 function UserInformation(props)
 {
 

@@ -1,4 +1,4 @@
-import "../Css/Table.css";
+import "../css/Table.css";
 
 function Table(props)
 {

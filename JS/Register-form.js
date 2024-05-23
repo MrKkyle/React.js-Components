@@ -2,7 +2,7 @@ import {useState} from "react";
 import {useEffect} from 'react';
 import $ from "jquery";
 
-import '../Css/Form.css';
+import '../css/Form.css';
 function Register_Form(props)
 {
     

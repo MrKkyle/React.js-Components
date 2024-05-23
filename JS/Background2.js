@@ -1,4 +1,4 @@
-import '../Css/Background.css';
+import '../css/Background.css';
 import {useEffect} from 'react';
 import $ from "jquery";
 import image from '../Images/Screenshot 2023-08-31 144726.png';

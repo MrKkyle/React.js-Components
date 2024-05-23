@@ -1,4 +1,4 @@
-import '../Css/Background.css';
+import '../css/Background.css';
 
 
 function Background4(props)

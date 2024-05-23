@@ -1,4 +1,4 @@
-import '../Css/Slideshow.css';
+import '../css/Slideshow.css';
 import {useEffect} from 'react';
 import Background3 from './Background3';
 import image from '../Images/Simulacra.jpg';

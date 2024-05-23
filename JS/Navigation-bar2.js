@@ -1,5 +1,5 @@
 // Import Style sheet below
-import '../Css/navigation-bar2.css';
+import '../css/navigation-bar2.css';
 
 function Navigation_Bar2(props)
 {

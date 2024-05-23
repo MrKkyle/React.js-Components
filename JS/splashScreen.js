@@ -1,5 +1,5 @@
 //Imports below(should always be first) 
-import '../Css/splashScreen.css';
+import '../css/splashScreen.css';
 import {useRef, useEffect} from 'react';
 
 

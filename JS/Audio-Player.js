@@ -1,5 +1,5 @@
 import {useEffect} from 'react';
-import '../CSS/Audio-player.css'
+import '../css/Audio-player.css'
 
 function AudioContainer(props)
 {

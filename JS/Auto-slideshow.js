@@ -1,5 +1,5 @@
 import {useEffect} from 'react';
-import '../Css/Auto-slideshow.css';
+import '../css/Auto-slideshow.css';
 import image1 from '../Images/ToF_Wallpaper2022_09.png';
 
 

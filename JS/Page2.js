@@ -1,7 +1,7 @@
 import {useEffect} from 'react';
 import Background from './Background';
 
-import '../CSS/page2.css';
+import '../css/page2.css';
 
 
 function Page2(props)

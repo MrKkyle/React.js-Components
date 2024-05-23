@@ -1,4 +1,4 @@
-import "../Css/Hide-button.css";
+import "../css/Hide-button.css";
 import {useEffect} from 'react';
 
 function Hide_button()

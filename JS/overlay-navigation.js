@@ -1,5 +1,5 @@
 // Import Style sheet below
-import '../Css/overlay-navigation.css';
+import '../css/overlay-navigation.css';
 import { Outlet, Link } from "react-router-dom";
 import {useEffect} from 'react';
 import {useNavigate} from 'react-router-dom';
