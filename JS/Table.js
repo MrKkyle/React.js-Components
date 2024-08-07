@@ -1,6 +1,6 @@
-import "../css/Table.css";
+import "../Css/Table.css";
 
-function Table(props)
+function Table({Heading1, Heading1field1, Heading1field2, Heading2, Heading2field1, Heading2field2, Heading3, Heading3field1, Heading3field2,})
 {
   return (
   <>
@@ -28,21 +28,5 @@ function Table(props)
   );
   
 };
-Table.defaultProps = 
-{
-    Heading1: "Heading 1",
-    Heading2: "Heading 2",
-    Heading3: "Heading 3",
-    Heading4: "Heading 4",
-    Heading1field1: "field 1",
-    Heading2field1: "field 1",
-    Heading3field1: "field 1",
-    Heading4field1: "field 1",
-    Heading1field2: "field 2",
-    Heading2field2: "field 2",
-    Heading3field2: "field 2",
-    Heading4field2: "field 2",
-
-}
 
 export default Table;

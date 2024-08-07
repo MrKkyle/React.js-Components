@@ -1,6 +1,6 @@
 import {useEffect} from 'react';
 import '../css/User-Information.css';
-function UserInformation(props)
+function UserInformation({Image, Heading1, Heading2})
 {
 
     useEffect(()=> 
@@ -26,12 +26,12 @@ function UserInformation(props)
             <div className = "modal1" id = "modal">
                 
                 <figure className = "snip1376">
-                    <img src = {props.Image} />
+                    <img src = {Image} />
                     <figcaption>
-                        <h2>{props.Heading1}</h2>
+                        <h2>{Heading1}</h2>
                         <p id = "_username"></p>
 
-                        <h2>{props.Heading2}</h2>
+                        <h2>{Heading2}</h2>
                         <input type = "password" id = "_password"></input>
                         <br />
                         <input id = "radio" type = "checkbox" />Show Password
@@ -42,11 +42,5 @@ function UserInformation(props)
     );
   
 };
-UserInformation.defaultProps = 
-{
-	Text1: "Add Text Here",
-    Text2: "Add Text Here",
-    Heading1: "Add Text Here",
-    Heading2: "Add Text Here",
-};    
+  
 export default UserInformation;

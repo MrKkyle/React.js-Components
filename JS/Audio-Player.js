@@ -1,7 +1,7 @@
 import {useEffect} from 'react';
 import '../css/Audio-player.css'
 
-function AudioContainer(props)
+function AudioContainer()
 {
     useEffect(()=> 
     {
@@ -144,8 +144,4 @@ function AudioContainer(props)
     );
 };
   
-AudioContainer.defaultProps = 
-{
-    textTitle: "Add Text Here", 
-};
 export default AudioContainer;

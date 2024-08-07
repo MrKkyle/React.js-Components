@@ -3,7 +3,7 @@ import '../css/splashScreen.css';
 import {useRef, useEffect} from 'react';
 
 
-function SplashScreen(props) 
+function SplashScreen({Background, Text}) 
 {
 	//initiliazed to null
 	let refSplash = useRef(null);
@@ -30,19 +30,14 @@ function SplashScreen(props)
 
     return ( 
 		//set the ref to the class that we would like to access
-        <div className = "splash"  style = {{backgroundImage: `url(${props.Background})`}} id = "splash" ref = {refSplash}>
+        <div className = "splash"  style = {{backgroundImage: `url(${Background})`}} id = "splash" ref = {refSplash}>
             <div className = "splash-text">
-                {props.Text}
+                {Text}
             </div>
         </div>
     );
 }
 
-SplashScreen.defaultProps = 
-{
-	Text: "Add Text Here",
-	Background : "#ccc"
-};
 export default SplashScreen;
 
 

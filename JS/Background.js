@@ -2,11 +2,11 @@ import React from 'react';
 import '../../css/background.css';
 
 /* Must start with a Caps letter */
-function Background(props)
+function Background({image, background})
 {
     return (
         <>
-            <div className = "background" style = {{backgroundImage: `url(${props.image})`, background: props.background}}></div>
+            <div className = "background" style = {{backgroundImage: `url(${image})`, background: background}}></div>
         </>
     );
 }

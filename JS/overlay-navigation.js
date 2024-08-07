@@ -1,12 +1,12 @@
 // Import Style sheet below
-import '../css/overlay-navigation.css';
-import { Outlet, Link } from "react-router-dom";
+import '../Css/overlay-navigation.css';
+import { Outlet} from "react-router-dom";
 import {useEffect} from 'react';
 import {useNavigate} from 'react-router-dom';
 
 
 //Insert your navigations 
-function Overlay_Navigation(props)
+function Overlay_Navigation(location1, location2, location3, location4)
 {
     const navigate = useNavigate();
     
@@ -60,10 +60,10 @@ function Overlay_Navigation(props)
             <a id = "close" className = "closebtn">&times;</a>
 
             <div className = "overlay-content">
-                <a href = "#">{props.location1}</a>
-                <a href = "#">{props.location2}</a>
-                <a href = "#">{props.location3}</a>
-                <a href = "#">{props.location4}</a>
+                <a href = "#">{location1}</a>
+                <a href = "#">{location2}</a>
+                <a href = "#">{location3}</a>
+                <a href = "#">{location4}</a>
             </div>
         </div>
         <span id = "open">open</span>
@@ -72,11 +72,4 @@ function Overlay_Navigation(props)
     )  
 }
 
-Overlay_Navigation.defaultProps = 
-{
-    location1: "loc 1",
-    location2: "loc 2",
-    location3: "loc 3",
-    location4: "loc 4"
-}
 export default Overlay_Navigation;

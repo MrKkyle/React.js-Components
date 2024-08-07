@@ -3,7 +3,7 @@ import '../css/Auto-slideshow.css';
 import image1 from '../Images/ToF_Wallpaper2022_09.png';
 
 
-function Auto_Slideshow(props)
+function Auto_Slideshow({Display, Image1, Text1, Image2, Text2, Image3, Text3, Image4, Text4, Image5, Text5})
 {
     useEffect(()=> 
     {
@@ -30,31 +30,31 @@ function Auto_Slideshow(props)
 
     return (
     <>
-        <div className = "auto-slideshow-container" style = {{display: props.Display}}>
+        <div className = "auto-slideshow-container" style = {{display: Display}}>
 
             <div className = "mySlides fade">
-                <img src = {props.Image1} style = {{width: '100%'}}></img>
-                <div className = "text">{props.Text1}</div>
+                <img src = {Image1} style = {{width: '100%'}}></img>
+                <div className = "text">{Text1}</div>
             </div>
 
             <div className = "mySlides fade">
-                <img src = {props.Image2} style = {{width: '100%'}}></img>
-                <div className = "text">{props.Text2}</div>
+                <img src = {Image2} style = {{width: '100%'}}></img>
+                <div className = "text">{Text2}</div>
             </div>
 
             <div className = "mySlides fade">
-                <img src = {props.Image3} style = {{width: '100%'}}></img>
-                <div className = "text">{props.Text3}</div>
+                <img src = {Image3} style = {{width: '100%'}}></img>
+                <div className = "text">{Text3}</div>
             </div>
 
             <div className = "mySlides fade">
-                <img src = {props.Image4} style = {{width: '100%'}}></img>
-                <div className = "text">{props.Text4}</div>
+                <img src = {Image4} style = {{width: '100%'}}></img>
+                <div className = "text">{Text4}</div>
             </div>
 
             <div className = "mySlides fade">
-                <img src = {props.Image5} style = {{width: '100%'}}></img>
-                <div className = "text">{props.Text5}</div>
+                <img src = {Image5} style = {{width: '100%'}}></img>
+                <div className = "text">{Text5}</div>
             </div>
 
         </div>
@@ -63,13 +63,4 @@ function Auto_Slideshow(props)
   
 };
 
-Auto_Slideshow.defaultProps = 
-{ 
-    Image1: image1,
-    Image2: image1,
-    Image3: image1,
-    Text1: "Add text here", 
-    Text2: "Add text here", 
-    Text3: "Add text here"
-}
 export default Auto_Slideshow;

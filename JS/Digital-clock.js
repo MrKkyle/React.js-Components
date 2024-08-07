@@ -4,16 +4,10 @@ import {useEffect} from 'react';
 
 
 /* Must start with a Caps letter */
-function DigitalClock(props)
+function DigitalClock()
 {
     useEffect(()=> 
     {
-        /*
-        window.onload()
-        {
-            document.getElementById("MyClockDisplay").showTime();
-        } */
-        
         function showTime()
         {
             var date = new Date();
@@ -52,7 +46,4 @@ function DigitalClock(props)
     );
 }
 
-DigitalClock.defaultProps = 
-{
-
-};
+export default DigitalClock;
